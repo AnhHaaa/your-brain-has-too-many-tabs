@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  background-image: url(BG.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #000000;
+}
+
+/* header + nav */
+header {
+  background: #272c4e;
+  color: #ffc400;
+  padding: 2em;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+}
+h1 {
+   font-size: 4em; 
+   margin: 0;
+}
+  
+nav {
+  margin-top: 15px;
+text-align: center;
+margin-bottom: 15px;
+}
+
+nav a {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 8px 12px;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+
+nav a:hover {
+  background: #ffc400;
+  color: #272c4e;
+}
+
+/* main layout */
+main {
+    width: 100%;
+    max-width: 1000px;
+    padding: 1em;
+    margin: 0 auto;
+    background-color: rgb(255, 247, 232);
+}
+
+/* headings */
+h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 28px;
+}
+
+h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 35px;
+  font-style: italic;
+}
+
+figure {
+    margin: auto 0;
+}
+
+img {
+    /*responsive image*/
+    width: 100%;
+}
+ figcaption {
+    font-style: italic;
+    text-align: center;
+    padding: .5em 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+
+ footer {
+    font-style: italic;
+ }
+h1.figma-embed {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+    
+}
+
+h2.styleguide {
+    text-align: left;
+}
+
+
